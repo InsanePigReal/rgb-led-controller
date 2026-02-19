@@ -1,1 +1,1 @@
-# esp32-24v-rgb-led-controller
+# 24v-rgb-led-controller
