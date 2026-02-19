@@ -1,1 +1,1 @@
-# 24v-rgb-led-controller
+# rgb-led-controller
