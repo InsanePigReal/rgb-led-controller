@@ -27,6 +27,10 @@ A compact (30.99 mm* 32.07 mm = <1000mm^2, high efficiency PWM controller design
         - low gate threshold voltage - Vgs(th) - (0.5-1.1v), allowing it be driven with a 3.3v micocontroller signal without needing a gate driver.
         - Rated for Vds = 30v, providing a safe margin for 24v LEDs
         - Low on-resitance - Rds(on) = 29-37mΩ - minimises power dissipation, keeping the SOT-23 package cool when driving several amps of current
+    - A mosfet was chosen instead of a relay due to its faster switching potential
+        - This is useful for turning RGB LED strips on/off quickly -> for example, for decoration, where a mosfet will appear more seamless
+        - Mosfets additonally consume less power, which is useful as the LED strips will be turned on for a large portion of the time (such as when the user is at work)
+        - Mosfets are additionally more compact, which fufills one of the aims of the project (a compact RGB LED Controller
     - 100R Gate Resistor
         - Protects MCU GPIO by limiting peak current to (3.3V/100Ω=33mA)
     - 100K Pull-Down Resistor
