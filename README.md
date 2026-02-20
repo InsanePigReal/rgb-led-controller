@@ -56,3 +56,8 @@ Issues include the lack of moutning holes, as well as not using a ground pour an
 <img width="689" height="700" alt="PCB V5" src="https://github.com/user-attachments/assets/5309be02-0496-4b94-82c5-6bb3afc33684" />
 
 Final version added mounting holes for the PCB, making it a more user-friendly design. Additionally, a ground pour was used instead of a the 'spider' of ground traces, and a thermal relief fill was used to make hand-soldering easier. Fixed the traces that were 90 degrees - now all traces are 45 degrees max. Furthermore, I changed the via diameter and hole size so that it fits with the chosen manufactuer's specifications. More vias were used than previously to ensure minimal voltage loss based on current.
+
+
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details
