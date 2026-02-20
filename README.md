@@ -26,6 +26,7 @@ A compact (30.99 mm* 32.07 mm = <1000mm^2, high efficiency PWM controller design
         - Prevent floating GPIOs from causing the LEDs to flicker
         - 100K was chosen as a "weak" pull-down -> strong enough to bleed off charge but high enough to not wase significant power during operation
     - 100uF bulk electrolytic capacitor
+        - Rated for 25V to ensure it can handle 24V load
         - Prevent voltage dips when switching
     - 100nF decoupling ceramic capacitor
         - Filter out high frequency noise from PWM switching -> ensures LED doesn't flicker
@@ -34,3 +35,7 @@ A compact (30.99 mm* 32.07 mm = <1000mm^2, high efficiency PWM controller design
     - SOT-23 Package can dissipate ≈ 1.25W
         - At 2A load, P = 2^2 * 0.037 = 0.148W -> design operates at a 8x safety factor regarding thermals
         - At 4A load, P = 4^2 * 0.037 = 0.592W -> design operates at a 2x safety factor regarding thermals
+
+## Iteration and Improvements
+<img width="1137" height="411" alt="PCB V1" src="https://github.com/user-attachments/assets/3f1e7a64-476e-4f86-9fef-bd87daad5408" />
+
