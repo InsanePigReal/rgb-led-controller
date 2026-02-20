@@ -2,7 +2,7 @@
 
 # High-Current RGB LED Controller (24V)
 
-A compact (<1000mm^2), high efficiency PWM controller designed to drive 24V RGB LED strips using logic-level mosfets.
+A compact (30.99 mm* 32.07 mm = <1000mm^2, high efficiency PWM controller designed to drive 24V RGB LED strips using logic-level mosfets.
 
 ## Specifications
 - Input -> 24V - (IRLML6344 functions up to 30v)
